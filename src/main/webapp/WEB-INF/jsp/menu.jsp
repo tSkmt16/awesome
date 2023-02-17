@@ -14,7 +14,7 @@
 <body>
 	<jsp:include page="/WEB-INF/jsp/header.jsp"></jsp:include><br><br><br><br>
 	
-	<form action="/moderateDrinking/MenuServlet" method="post">
+	<form action="/awesome/MenuServlet" method="post">
 		<button name=menuButton value="DrinkNow" class=menuButton>これから飲む</button><br><br>
 		<button name=menuButton value="InputCondition" class=menuButton>体調入力</button><br><br>
 		<button name=menuButton value="InputAmount" class=menuButton>まとめて入力</button><br><br>
@@ -22,6 +22,6 @@
 		<button name=menuButton value="MyStats" class=menuButton>マイ統計データ</button><br><br>
 		<button name=menuButton value="AdminMenu" class=menuButton>管理者メニュー</button><br><br><br>
 	</form>
-<!-- 	<a href="/moderateDrinking/LogoutServlet">ログアウト</a> -->
+<!-- 	<a href="/awesome/LogoutServlet">ログアウト</a> -->
 </body>
 </html>

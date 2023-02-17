@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8" http-equiv="Refresh"
-	content="3 ; URL=/moderateDrinking/WelcomeServlet">
+	content="3 ; URL=/awesome/WelcomeServlet">
 <title>Logout...</title>
 <link rel="stylesheet" type="text/css"
 	href="<%=request.getContextPath() %>/css/style.css">

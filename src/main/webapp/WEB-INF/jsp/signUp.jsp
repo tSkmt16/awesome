@@ -13,7 +13,7 @@
 
 <body>
 	<h3>新規ユーザー登録</h3>
-	<form action="/moderateDrinking/SignUpServlet" method="post">
+	<form action="/awesome/SignUpServlet" method="post">
 		<label>ユーザー名</label>
 			<input type="text" name="user_name"><br>
 		<label>パスワード</label>

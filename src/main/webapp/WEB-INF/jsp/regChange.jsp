@@ -17,7 +17,7 @@
 	<br>
 	<br>
 
-	<form action="/moderateDrinking/RegChangeServlet" method="post">
+	<form action="/awesome/RegChangeServlet" method="post">
 		<div>
 			<table class=regchange-table>
 				<label class=regchange-label1>--------------- お気に入り飲料①
@@ -114,7 +114,7 @@
 	</form>
 	<hr>
 	<br>
-	<form action="/moderateDrinking/RegChangeServlet" method="post">
+	<form action="/awesome/RegChangeServlet" method="post">
 		<div>
 			<label class=regchange-label>アルコール度数計算</label><br>
 			<br>
@@ -147,7 +147,7 @@
 	</form>
 
 	<br>
-	<form action="/moderateDrinking/MenuServlet" method="get">
+	<form action="/awesome/MenuServlet" method="get">
 		<input type=submit value="メニューへ戻る" class=button-general>
 	</form>
 	<br>

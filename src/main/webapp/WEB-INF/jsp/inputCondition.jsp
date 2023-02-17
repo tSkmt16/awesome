@@ -20,7 +20,7 @@
 	<br>
 	<br>
 
-	<form action="/moderateDrinking/InputConditionServlet" method="post">
+	<form action="/awesome/InputConditionServlet" method="post">
 		<div class=conditionRadioBlock>
 			<div class=conditionRadio>
 			<input type="radio" name="condition" value="1">　とてもいい<br>
@@ -35,7 +35,7 @@
 	</form>
 	
 	<br>
-	<form action="/moderateDrinking/MenuServlet" method="get">
+	<form action="/awesome/MenuServlet" method="get">
 		<input type=submit value="メニューへ戻る" class=button-general>
 	</form>
 

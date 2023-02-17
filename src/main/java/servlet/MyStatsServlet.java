@@ -109,7 +109,7 @@ public class MyStatsServlet extends HttpServlet {
 
 			JFreeChart chart = ChartFactory.createBarChart("アルコール摂取量", "日付", "mL", dcd);
 
-			String filePath = "../workspace/moderateDrinking/src/main/webapp/chart/";
+			String filePath = "../workspace/awesome/src/main/webapp/chart/";
 			LocalDateTime ldt = LocalDateTime.now();
 			DateTimeFormatter form = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
 			String now = ldt.format(form);

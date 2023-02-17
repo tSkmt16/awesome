@@ -12,6 +12,6 @@
 </head>
 <body>
 <p>登録完了</p>
-<a href="/moderateDrinking/WelcomeServlet">ログイン画面へ</a>
+<a href="/awesome/WelcomeServlet">ログイン画面へ</a>
 </body>
 </html>

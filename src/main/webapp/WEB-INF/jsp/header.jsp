@@ -19,12 +19,12 @@
 		</div>
 		<nav class="header-nav">
 			<div class="header-nav-item">
-				<a href="/moderateDrinking/MenuServlet"><img
+				<a href="/awesome/MenuServlet"><img
 					src="images/iconHome.png" class="header-avatar" />
 					<!-- <div class=header-label>Home</div> --> </a>
 			</div>
 			<div class="header-nav-item">
-				<a href="/moderateDrinking/LogoutServlet"><img
+				<a href="/awesome/LogoutServlet"><img
 					src="images/iconLogout.png" class="header-avatar" />
 					<!-- <div class=header-label>Logout</div> --> </a>
 			</div>

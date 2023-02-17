@@ -11,7 +11,7 @@ import model.Account;
 import model.Login;
 
 public class AccountDAO {
-	private final String JDBC_URL = "jdbc:postgresql://localhost:5433/moderateDrinking";
+	private final String JDBC_URL = "jdbc:postgresql://localhost:5433/awesome";
 	private final String DB_USER = "postgres";
 	private final String DB_PASS = "password";
 

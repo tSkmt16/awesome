@@ -18,7 +18,7 @@
 		<c:if test="${ not empty loginErrorMsg }">
 			<div class="errormsg">${ loginErrorMsg }</div>
 		</c:if>
-		<form name="form1" action="/moderateDrinking/LoginServlet" method="post">
+		<form name="form1" action="/awesome/LoginServlet" method="post">
 			<label>ユーザー名</label> <input type="text" name="user_name"><br>
 			<label>パスワード</label> <input type="password" name="password"><br>
 			<br>
@@ -27,7 +27,7 @@
 		</form>
 		<div>
 			アカウントをお持ちでない場合<br> 
-			新規登録は<a href="/moderateDrinking/SignUpServlet">こちら</a>
+			新規登録は<a href="/awesome/SignUpServlet">こちら</a>
 		</div>
 		
 		<script>
@@ -37,7 +37,7 @@
 					window.close();
 				}			
 				window.open('', 'new_window','width=500,height=800,scrollbars=yes');
-				document.form1.action = '/moderateDrinking/LoginServlet';
+				document.form1.action = '/awesome/LoginServlet';
 				document.form1.method = 'POST'; 
 				document.form1.target = 'new_window';
 				document.form1.submit();

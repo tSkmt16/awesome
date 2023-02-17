@@ -37,13 +37,13 @@
 	<br>
 	<br>
 
-	<form action="/moderateDrinking/InputAmountServlet" method="get">
+	<form action="/awesome/InputAmountServlet" method="get">
 		<input type=submit name=continue value="つづけて入力する" class=button-general>
 		</button>
 	</form>
 	<br>
 
-	<form action="/moderateDrinking/MenuServlet" method="get">
+	<form action="/awesome/MenuServlet" method="get">
 		<input type=submit value="メニューへ戻る" class=button-general>
 	</form>
 </body>

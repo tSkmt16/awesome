@@ -14,7 +14,7 @@
 	<jsp:include page="/WEB-INF/jsp/header.jsp"></jsp:include>
 	<p>体調の登録が完了しました</p>
 	<br>
-	<form action="/moderateDrinking/MenuServlet" method="get">
+	<form action="/awesome/MenuServlet" method="get">
 		<input type=submit value="メニューへ戻る" class=button-general>
 	</form>
 	<br><br>

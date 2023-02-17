@@ -54,7 +54,7 @@ public class SignUpServlet extends HttpServlet {
 				dispatcher.forward(request, response);
 			}				
 		} else {
-			response.sendRedirect("/moderateDrinking/SignUpServlet");
+			response.sendRedirect("/awesome/SignUpServlet");
 		}
 	}
 }

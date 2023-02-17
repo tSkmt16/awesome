@@ -15,7 +15,7 @@
 	<br>
 	<br>
 
-	<form action="/moderateDrinking/InputAmountServlet" method="post">
+	<form action="/awesome/InputAmountServlet" method="post">
 		<input type="date" name="selectedDate" value="${targetDate}"
 			class=dateForm required onchange="submit(this.form)" />
 		<!-- <input type="submit" name="reload" value="更新"> -->
@@ -42,7 +42,7 @@
 	<br>
 	<br>
 
-	<form action="/moderateDrinking/InputAmountServlet" method="post">
+	<form action="/awesome/InputAmountServlet" method="post">
 		<label class=inputamount-label>上書きする場合は ↓ に入力してください</label>
 		<br>
 		<br>
@@ -115,7 +115,7 @@
 			class=button-general>
 	</form>
 	<br>
-	<form action="/moderateDrinking/MenuServlet" method="get">
+	<form action="/awesome/MenuServlet" method="get">
 		<input type=submit value="メニューへ戻る" class=button-general>
 	</form>
 

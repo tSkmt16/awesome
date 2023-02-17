@@ -32,7 +32,7 @@
 	</table>
 	<br><br>
 
-	<form action="/moderateDrinking/DrinkNowServlet" method="post">
+	<form action="/awesome/DrinkNowServlet" method="post">
 
 		<select name="beverages" class=ddlist>
 			<option value="" selected hidden>選択してください</option>
@@ -110,7 +110,7 @@
 		</div>
 	</form>
 	
-	<form action="/moderateDrinking/MenuServlet" method="get">
+	<form action="/awesome/MenuServlet" method="get">
 		<input type=submit value="メニューへ戻る" class=button-general>
 	</form>
 </body>

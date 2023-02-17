@@ -53,8 +53,8 @@ String chartPath = (String) request.getAttribute("chartPath");
 	<br>
 	<br>
 
-	<!-- <form action="/moderateDrinking/CreateChartServlet" method="get"> -->
-	<form action="/moderateDrinking/MyStatsServlet" method="post">
+	<!-- <form action="/awesome/CreateChartServlet" method="get"> -->
+	<form action="/awesome/MyStatsServlet" method="post">
 		<input type="date" name="startDate" value="${targetDate}"
 			class=dateForm required /> <input type="date" name="endDate"
 			value="${targetDate}" class=dateForm required /> 
@@ -71,7 +71,7 @@ String chartPath = (String) request.getAttribute("chartPath");
 	<!-- <img src="chart/2_20230111_134700.png"> -->
 	<br>
 	<br>
-	<form action="/moderateDrinking/MenuServlet" method="get">
+	<form action="/awesome/MenuServlet" method="get">
 		<input type=submit value="メニューへ戻る" class=button-general>
 	</form>
 </body>

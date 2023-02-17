@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet {
 			session.setAttribute("user_name", user_name);
 						
 			// Menu画面へリダイレクト
-			response.sendRedirect("/moderateDrinking/MenuServlet");
+			response.sendRedirect("/awesome/MenuServlet");
 			
 		} else { // ログイン失敗時
 			request.setAttribute("loginErrorMsg", "ユーザー名またはパスワードに誤りがあります");

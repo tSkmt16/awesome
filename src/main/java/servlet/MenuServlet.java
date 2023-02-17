@@ -29,7 +29,7 @@ public class MenuServlet extends HttpServlet {
 
 		request.setCharacterEncoding("UTF-8");
 		String selectedButton = request.getParameter("menuButton");
-		String link = "/moderateDrinking/" + selectedButton + "Servlet";
+		String link = "/awesome/" + selectedButton + "Servlet";
 
 		response.sendRedirect(link);
 
