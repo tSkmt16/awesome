@@ -1,0 +1,362 @@
+@charset "UTF-8";
+
+/* header ---------------------------------------------------------*/
+.header {
+	box-sizing: border-box;
+	width: 100%;
+	background:limegreen;
+}
+
+.header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1920px;
+	height: 60px;
+	padding: 0 0.8em;
+	margin: 0 auto;
+	font-size: 1.2em;
+	vertical-align:middle;
+}
+
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
+.header-nav-item {
+	display: flex;
+	align-items: center;
+	margin-left: 16px;
+}
+
+.logo img {
+	width: 36px;
+}
+
+.header-avatar {
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.header-label{
+	vertical-align:middle;
+}
+
+/* body ---------------------------------------------------------*/
+body{
+ 	/* background-image: url(..images//bgBeer.png); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;	
+	
+	/* font-size: 1.2rem; */
+	/* font-weight:bold; */
+	font-family:Verdana, Geneva, Tahoma, sans-serif;	
+	margin: auto;
+	text-align: center;
+	align-items: center;	
+}
+
+/* 共通 ---------------------------------------------------------*/
+
+.bold{
+	font-weight:bold;	
+}
+
+.errormsg{
+	color: red;
+}
+.menuButton{
+	width: 400px;
+	height: 40px;
+
+}
+
+.ddlist{
+	height: 1.5rem;
+}
+
+.ddlist-long{
+	height: 1.5rem;
+	width: 12rem;
+	/* font-size: 1.1rem; */
+}
+.ddlist-short{
+	height: 1.5rem;
+	width: 3rem;
+	/* font-size: 1.1rem; */
+}
+
+.dateForm{
+	height: 1.5rem;
+	width: 8rem;
+	font-size: 1.1rem;
+}
+
+.conditionRadioBlock{
+	margin: 16px auto;
+	text-align: center;
+	display: block;
+}
+.conditionRadio{
+	text-align: left;
+	display: inline-block;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+}
+.label-center{
+    text-align: center;
+    width: 400px;
+}
+
+select{
+	width: 150px;
+}
+
+.button-general{
+	width: 200px;
+	height: 30px;
+}
+
+.button-link{
+	width: 300px;
+	height: 30px;
+} 
+.dateForm{
+	width:10rem;
+	text-align:center;
+}
+
+.label-small-font{
+	font-size:12px;	
+	width: 400px;
+	text-align:center;
+}
+
+/* 個別 ---------------------------------------------------------*/
+
+
+.drinknow-table{
+    border-spacing: 0;
+    margin: auto;
+    font-weight:bold;
+}
+.drinknow-table th{
+    padding: 3px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    /* border-inline: 2px solid black; */
+    text-align: center;
+    font-weight: normal;
+    vertical-align: top;
+	width: 2rem;
+}
+.drinknow-table td{
+    padding: 3px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: right;
+    width: 8rem;
+}
+meter{
+	height: 3rem;
+	width: 15rem;
+}
+
+.bgYellow{
+	background:yellow;
+}
+.bgRed{
+	background:red;
+	color: white;
+}
+
+.count-button-container{
+	 display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 150px;
+    gap:1px;
+}
+
+.button-plus {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: rgb(0, 128, 0);
+    border-radius: 8px;
+    border-style: none;
+    border-bottom: solid 5px rgb(0, 64, 0);
+    
+    width:22rem;
+    height:5rem;
+}
+.button-plus:hover {
+    border-bottom: solid 2px rgb(0, 64, 0);
+    transform: translateY(3px);
+}
+
+.button-minus {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #FFF;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: rgb(128, 128, 128);
+    border-radius: 8px;
+    border-style: none;
+    border-bottom: solid 5px rgb(68, 64, 60);
+    
+    width:8rem;
+    height:5rem;
+}
+.button-minus:hover {
+    border-bottom: solid 2px rgb(68, 64, 60);
+    transform: translateY(3px);
+}
+
+.inputamount-table{
+    border-spacing: 0;
+    margin: auto;
+}
+.inputamount-table th{
+    padding: 3px;
+    border-bottom: 1px solid black;
+    /* border-inline: 2px solid black; */
+    text-align: center;
+    font-weight: normal;
+    vertical-align: top;
+	width: 200px;
+}
+.inputamount-table td{
+    padding: 3px;
+    border-bottom: 1px solid black;
+    text-align: right;
+    width: 100px;
+    font-weight: bold;
+}
+.inputamount-label{
+	width:20rem;
+}
+
+.completeinputamount-table{
+	border-spacing: 0;
+    margin: auto;
+    width:300px;
+}
+.completeinputamount-table th{
+    padding: 3px;
+    border-bottom: 1px solid black;
+    /* border-inline: 2px solid black; */
+    text-align: center;
+    font-weight: normal;
+    vertical-align: top;
+	width: 200px;
+}
+.completeinputamount-table td{
+    padding: 3px;
+    border-bottom: 1px solid black;
+    text-align: right;
+    width: 100px;
+}
+
+.inputcondition-label{
+	width:20rem;
+	text-align: center;
+}
+
+.mystats-table{
+    border-spacing: 0;
+	margin: auto;
+	width:450px;
+	white-space: nowrap;
+}
+.mystats-table th{
+    border-bottom: 1px solid black;
+    /* border-inline: 2px solid black; */
+    text-align: left;
+    font-weight: normal;
+    vertical-align: top;
+    width:100px;
+
+}
+.mystats-table td{
+    border-bottom: 1px solid black;
+    text-align: right;
+    width:40px;
+    font-weight: bold;
+}
+
+.regchange-label1{
+	width:30rem;
+	text-align:center;
+}
+.regchange-label2{
+	width:30rem;
+	text-align:center;
+	font-weight:bold;
+	background:rgb(128, 255, 128);
+}
+.regchange-table{
+    border-spacing: 0;
+	margin: auto;
+	width:450px;
+	white-space: nowrap;
+}
+.regchange-table th{
+    /* border-inline: 2px solid black; */
+    text-align: left;
+    font-weight: normal;
+    vertical-align: top;
+    width:100px;
+
+}
+.regchange-table td{
+    text-align: left;
+    width:40px;
+}
+
+.regchange-calctable{
+    border-spacing: 20;
+	margin: auto;
+	width:450px;
+	white-space: nowrap;
+	align-items:center;
+}
+.regchange-calctable th{
+    font-weight: normal;
+    vertical-align: top;
+    text-align: center;
+    width:150px;
+
+}
+.regchange-calctable td{
+    text-align: center;
+    width:150px;
+}
+
+.regchange-calc-tbox{
+	width:60px;
+	text-align: center;
+}
+
+/* ---------------------------------------------------------*/

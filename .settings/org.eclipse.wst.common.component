@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<<<<<<< HEAD
+    <wb-module deploy-name="moderateDrinking">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="moderateDrinking"/>
+        <property name="java-output-path" value="/moderateDrinking/build/classes"/>
+=======
+    <wb-module deploy-name="awesome">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <property name="context-root" value="awesome"/>
+        <property name="java-output-path" value="/awesome/build/classes"/>
+>>>>>>> 92c1e82b9d78ad9e1ec5361b760aa75fba5be75e
+    </wb-module>
+</project-modules>
