@@ -1,17 +1,17 @@
-# JDK 17の公式イメージ
-FROM eclipse-temurin:17-jdk
+# Tomcatを使う
+FROM tomcat:9-jdk17
 
 # 作業ディレクトリを設定
-WORKDIR /app
+WORKDIR /usr/local/tomcat/webapps
 
-# ソースコードをすべてコピー
+# ソースコードをコピー (プロジェクトのWEB-INFを含む必要があります)
 COPY . .
 
-# Javaファイルのコンパイル
-RUN javac Main.java
+# コンパイル（必要ならばコンパイル用にJavaのコードをビルド）
+RUN javac /usr/local/tomcat/webapps/WEB-INF/classes/Main.java
 
-# ポート8080を開放
+# Tomcatのポート8080を開放
 EXPOSE 8080
 
-# アプリケーションの起動
-CMD ["java", "WelcomeServlet"]
+# Tomcatを起動
+CMD ["catalina.sh", "run"]
