@@ -1,17 +1,18 @@
-# Tomcatを使う
+# Tomcat 9 と JDK 17の公式イメージを使用
 FROM tomcat:9-jdk17
 
 # 作業ディレクトリを設定
 WORKDIR /usr/local/tomcat/webapps
 
-# ソースコードをコピー (プロジェクトのWEB-INFを含む必要があります)
+# ソースコード（.java ファイル）をコピー
 COPY . .
 
-# コンパイル（必要ならばコンパイル用にJavaのコードをビルド）
-RUN javac /usr/local/tomcat/webapps/WEB-INF/classes/Main.java
+# ソースコードをコンパイル
+# -d オプションでコンパイル結果を classes フォルダに出力
+RUN javac -d /usr/local/tomcat/webapps/WEB-INF/classes /usr/local/tomcat/webapps/WEB-INF/src/main/java/servlet/*.java
 
-# Tomcatのポート8080を開放
+# Tomcat のポート 8080 を開放
 EXPOSE 8080
 
-# Tomcatを起動
+# Tomcat を起動
 CMD ["catalina.sh", "run"]
