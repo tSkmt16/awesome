@@ -5,7 +5,7 @@ FROM tomcat:9-jdk17
 WORKDIR /usr/local/tomcat/webapps
 
 # ソースコード（.java ファイル）をコピー
-COPY . .
+COPY src/main/java/ /usr/local/tomcat/webapps/WEB-INF/src/
 
 # ソースコードをコンパイル
 # -d オプションでコンパイル結果を classes フォルダに出力
